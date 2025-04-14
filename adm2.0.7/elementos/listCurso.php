@@ -1,5 +1,5 @@
 <div style="width: 50%; display: flex; align-items: center;flex-direction: column;">
-    <input class="pesquisa" placeholder="Pesquisa denuncias ou usuarios...." />
+    <input class="pesquisa" placeholder="⌕ Pesquisa denuncias ou usuarios...." />
 
     <div class="listCurso">
         <?php

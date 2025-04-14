@@ -134,7 +134,7 @@
     width: 8rem;
     border-radius: 400rem;
   }
-& .confirmar{
+ .confirmar{
   height: 3rem;
   width: 19rem;
   align-items: center;
@@ -146,6 +146,13 @@
   background-color:#222222;
   color: white;
 }
+
+.confirmar:active {
+  border: 1px solid #222222;
+  background-color: white;
+  color: #222222;
+}
+
   &.categoriaBtn {
     border:1px solid #00D9FF;
     color: #00D9FF;

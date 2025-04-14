@@ -30,7 +30,7 @@
     }
 
     & .opcoes:hover {
-        background-color: #386791;
+        background-color: darkgray;
     }
 
     & p {

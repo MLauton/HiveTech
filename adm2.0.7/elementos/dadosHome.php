@@ -141,7 +141,9 @@ $qtdCursos = $cursos['total'];
             </div>
         </div>
 
-        <div class="card grafico" style="max-height: 48dvh;min-height: 10rem;width: 96dvh; margin-left:3rem;">
+        <div class="card grafico" style="max-height: 48dvh;min-height: 10rem;width: 96dvh; margin-left:3rem; align-items: center;justify-content: center;">
+            vai ter um grafico aqui
+            
         </div>
     </div>
 </div>
