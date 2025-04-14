@@ -1,0 +1,17 @@
+.nome{
+    padding: 2rem;
+}
+
+#Frases {
+    transition: color 1s ease, font-size 1s ease;
+}
+
+
+@keyframes proLado {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

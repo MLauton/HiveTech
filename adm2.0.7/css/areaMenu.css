@@ -1,0 +1,44 @@
+.areaMenu {
+    position: sticky;
+    height: 100%;
+    width: 15%;
+    background: linear-gradient(var(--corBackGrad));
+
+    & .sla {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        gap: .75dvh;
+
+        & a {
+            width: 100%;
+            text-decoration: none;
+        }
+    }
+
+    & .opcoes {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        width: 100%;
+        height: 4.5dvh;
+        padding: 0 1.5dvh;
+
+    }
+
+    & .opcoes:hover {
+        background-color: #386791;
+    }
+
+    & p {
+        font-size: .75rem;
+        font-weight: bold;
+        word-spacing: .5rem;
+        color: var(--fontColor2);
+
+
+    }
+}

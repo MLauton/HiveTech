@@ -1,0 +1,148 @@
+.espaco {
+  width: 45rem;
+  padding: 2rem;
+}
+.area{
+  display: flex;
+  padding-bottom: 2rem;
+  flex-direction: row;
+  justify-content: left;
+  width: 100%;
+    
+  & h2{
+    width: 50%;
+  }
+}
+
+.areadois{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  width: 100%;
+}
+
+.pesquisa{
+  width: 64dvh;
+  height: 2.5rem;
+  border-radius: 4rem;
+  border: 1px solid darkgray;
+  padding: 1rem;
+}
+
+.buttonTela {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  color: white;
+
+  &.funcao {
+    height: 2.2rem;
+    width: 2.2rem;
+    object-fit: cover;
+  }
+
+  &.cursos {
+    background-color: #00D9FF;
+    color: white;
+    height: 2.5rem;
+    width: 8rem;
+    border-radius: 400rem;
+  }
+
+  &.categoriaBtn {
+    border:1px solid #00D9FF;
+    color: #00D9FF;
+    height: 2.5rem;
+    width: 8rem;
+    color: 00D9FF;
+    border-radius: 400rem;
+  }
+
+  &.adicionar {
+    border: 1px solid darkgray;
+    color: darkgray;
+    height: 2.5rem;
+    width: 8rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-left: 2.5rem;
+  }
+
+}
+.botoesTela{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 20rem;
+  margin-left: 2rem;
+
+  & a{
+    font-weight: bold;
+  }
+}
+
+.listCategoria{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  gap: 3rem;
+  overflow-y: auto;
+}
+
+.categoria{
+  width: 20rem;
+  height: 10rem;
+  flex-direction: column;
+  padding: 1rem;
+
+
+  & h2{
+padding-bottom:.4rem ;
+  }
+
+  & h5{
+    color: gray;
+    font-weight: 400;
+  }
+}
+.botoes{
+  padding-top:2rem ;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 0px;
+  width: 100%;
+}
+
+.button{
+  height: 1.9rem;
+  width: 6rem;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 0.5rem;
+  cursor:pointer;
+  color: white;
+  &.manter{
+      background-color: #222222;
+  }
+  &.denunciar{
+      background-color: #FF4A4A;
+  }
+  &.manter:active{
+      border: 1px solid #222222;
+      background-color: white;
+      color: #222222;
+  }
+  &.denunciar:active{
+      border: 1px solid #FF4A4A;
+      background-color: white;
+      color: #FF4A4A;
+  }
+}

@@ -1,0 +1,205 @@
+.containerIndexAdm {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1dvh;
+
+    .algo {
+        width: 100%;
+        height: 8dvh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding-inline: 3rem;
+        border-top-right-radius: var(--bordaRai);
+        border-top-left-radius: var(--bordaRai);
+        background-color: var(--fundo);
+        position: sticky;
+        top: 0;
+
+        & .direita {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: start;
+
+            & h1 {
+                font-size: var(--tamanhoFont2);
+                color: var(--fontColor1);
+            }
+        }
+
+        & .esquerda {
+            width: 70%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: end;
+
+            & a {
+                text-decoration: none;
+                width: 25%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: end;
+            }
+
+            & #btnAdd {
+                border: none;
+                border-radius: var(--bordaRai);
+                background-color: var(--corBack);
+                color: var(--fontColor2);
+                font-size: var(--tamanhoFont1);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                height: 67%;
+                width: 100%;
+            }
+
+            
+        }
+    }
+    & .admsCad {
+                width: 90%;
+                min-height: 50%;
+                max-height: 70%;
+                border-radius: var(--bordaRai);
+                box-shadow: var(--sombra4);
+                overflow-y: auto;
+
+                 
+
+
+
+                & .admCab{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: space-evenly;
+                    gap: 6rem;
+                    height: 7dvh;
+                    color: var(--fontColor2);
+                    position: sticky;
+                    top: 8dvh;
+                    background-color: var(--corBack4);
+
+                    & .nomeAdm{
+                        width: 7.5%;
+                        height: 100%;
+                        display: grid;
+                        place-items: center;
+                        font-size: var(--tamanhoFont1);
+                    }
+
+                    & .emailAdm{
+                        width: 30%;
+                        height: 100%;
+                        display: grid;
+                        place-items: center;
+                        font-size: var(--tamanhoFont1);
+                    }
+
+                    & .cpfAdm{
+                        height: 100%;
+                        display: grid;
+                        place-items: center;
+                        font-size: var(--tamanhoFont1);
+                    }
+                    & .nadaAdm{
+                        width: 10%;
+                        font-size: var(--tamanhoFont1);
+                    }
+                }
+
+                & .contDao{
+                    width: 100%;
+                    height: 7dvh;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+                    flex-direction: row;
+                    border-bottom: var(--borda);
+                    & .nomeAdm{
+                        width: 30%;
+                        height: 100%;
+                        display: grid;
+                        place-items: center;
+                        font-size: 1rem;
+                    }
+
+                    & .emailAdm{
+                        width: 40%;
+                        height: 100%;
+                        display: grid;
+                        place-items: center;
+                        font-size: 1rem;
+                    }
+
+                    & .cpfAdm{
+                        width: 20%;
+                        height: 100%;
+                        display: grid;
+                        place-items: center;
+                        font-size: 1rem;
+                    }
+
+
+                    & .admFoto{ 
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 10%;
+
+                        & img{
+                        width: 6dvh;
+                        height: 6dvh;
+                        border-radius: var(--bordaRai2);
+                    }
+                    }
+
+                    .btnsForms{
+                        display: flex;
+                        flex-direction: row;
+                        width: 15%;
+                        height: 100%;
+                        align-items: center;
+                        justify-content: space-evenly;
+                    }
+
+                    & #btnEdit{ 
+                        background: transparent;
+                        border: none;
+
+                        
+                        & #penBtn{
+                        width: 3.5dvh;
+                        height: 3.5dvh;
+                        cursor: pointer;
+                    }
+                }
+                }
+            }
+
+            .admsCad::-webkit-scrollbar{
+                width: 7px;
+            }
+
+            .admsCad::-webkit-scrollbar-thumb{
+                background-color: var(--corBack);
+                border-radius: 0px 10px 10px 0px;
+            }
+
+            .admsCad::-webkit-scrollbar-track{
+                background-color: var(--corBack2);
+                border-radius: 0px 10px 10px 0px;
+            }
+}
+

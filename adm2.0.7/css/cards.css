@@ -1,0 +1,59 @@
+a{
+    text-decoration: none;
+}
+.card{
+    background-color: var(--fundo);
+    border-radius: 8px;
+    box-shadow: var(--sombra2);
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    color: black;
+}
+
+.dadosCard{
+    width: 22rem;
+    height: 6rem;
+    cursor: pointer;
+}
+
+.dadosDenuncia{
+    width: 28rem;
+    height: 6rem;
+    cursor: pointer;
+    & .titulo{
+        text-align: center;
+    }
+}
+
+.infoDados{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    & .espaco{
+        padding-left: 0.2rem;
+        font-size: 1.8rem;
+    }
+}
+.pendentes{
+    text-align: center;
+    color:var(--fontColor3)
+}
+
+.imgDados{
+    height: 5rem;
+    width: 5rem;
+    object-fit: cover;
+}
+
+.tabela{
+    max-height:35rem;
+    min-height:24rem;
+    width: 75rem;
+    overflow: auto;
+    background-color: white;
+}
+

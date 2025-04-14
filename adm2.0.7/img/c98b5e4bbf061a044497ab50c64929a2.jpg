@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/geral.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/areaMenu.css">
+    <link rel="stylesheet" href="./css/conteudo.css">
+    <link rel="stylesheet" href="./css/dados.css">
+    <link rel="stylesheet" href="./css/tabelaInst.css">
+    <title>ADM - HOME</title>
+</head>
+
+<body>
+    <?php
+    require_once './elementos/nav.php'
+    ?>
+    <?php
+    require_once './elementos/areaMenu.php'
+    ?>
+    <main>
+    <?php
+    require_once './elementos/dados.php'
+    ?>
+
+    <?php
+    require_once './elementos/tabelaInst.php'
+    ?>
+    </main>
+
+</body>
+
+</html>

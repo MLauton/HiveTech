@@ -1,0 +1,78 @@
+.espaco {
+    width: 100%;
+    padding: 1rem;
+}
+.listInst{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+}
+
+
+
+.tabela {
+    display: flex;
+    flex-direction: column;
+    max-height: 48dvh;
+    min-height: 10rem;
+    width: 70dvh;
+    border-radius: 10px;
+    box-shadow: var(--sombra2);
+    align-items: center;
+
+
+    .nomesTab {
+        background-color: var(--corBack4);
+        height: 3rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        color: white;
+    }
+
+    & .infoTab {
+        width: 100%;
+    }
+
+    & .instituicao {
+        background-color: var(--fundo);
+        height: 1rem;
+        width: 100%;
+        align-items: center;
+
+    }
+    & .dados{
+        width: 90%;
+        margin-inline: 1%;
+        margin: 0.5rem;
+    }
+
+
+    & .foto {
+        width: 20%;
+    }
+
+    & .nomes {
+        width: 80%;
+        display: flex;
+        align-items: center;
+    }
+
+    & .favoritados {
+        width: 10%;
+        display: flex;
+        align-items: center;
+        text-align: right;
+    }
+
+    & .inst {
+        width: 3rem;
+        height: 3rem;
+        object-fit: cover;
+        border-radius: 1rem;
+
+    }
+}

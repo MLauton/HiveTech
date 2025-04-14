@@ -1,0 +1,54 @@
+
+nav {
+    background-color: var(--navColor);
+    width: 100%;
+    height: 7dvh;
+    border: 1px solid var(--navColor);
+
+    & ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style: none;
+        height: 100%;
+        padding: 0rem 1.5rem;
+    }
+
+    & li a {
+        text-decoration: none;
+        color: var(--fontColor1);
+        font-size: .85rem;
+        font-weight: bold;
+        transition-duration: .3s;
+    }
+
+    & .direita{
+        gap: 2dvh;
+    }
+
+    & .esquerda li a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    
+}
+
+.checkdokrl{
+    appearance: none;
+    -webkit-appearance: none;
+    width: 3rem;
+    height: 3rem;
+    filter: invert(1);
+    background-size: cover;
+
+    & .menuPerf{
+        display: none;
+        background-color: var(--corBack);
+    }
+
+    & .checkdokrl:checked ~ .menuPerf{
+        display: block;
+    }
+}

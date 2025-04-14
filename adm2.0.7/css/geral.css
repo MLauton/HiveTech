@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+:root{
+    --corBack: #24415A;
+    --corBack2: #72729e;
+    --corBack3: #3c395e;
+    --corBack4: #0c0a29;
+    --corBackGrad: 120deg, #F2F2F2, #F2F2F2, #F2F2F2;
+    --navColor: #0c0a29;
+    --fontColor1: white;
+    --fontColor2: rgb(0, 0, 0);
+    --fontColor3: rgb(0, 0, 0);
+    --bordaRai: 10px;
+    --bordaRai2: 50%;
+    --borda: 1px solid grey;
+    --fundo: #fef7ff;
+    --fundo2: #C5C5C5;
+    --fundo3: #E7E7E7;
+    --sombra1: 2px 2px 2px rgba(0, 0, 0, 0.25);
+    --sombra2: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    --sombra3: 3px 3px 10px rgba(0, 0, 0, 0.25);
+    --sombra4: 7px 7px 15px rgba(0, 0, 0, 0.5);
+    --tamanhoFont1: 1.25rem;
+    --tamanhoFont2: 1.5rem;
+}
+
+
+body {
+    background-color: var(--fundo3);
+    height: 93dvh;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.dados{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem 0rem 2rem 0rem;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+h3{
+    font-size: 1rem;
+}
+h4{
+    font-size: .9rem;
+}
+h5{
+    font-size: .8rem;
+}

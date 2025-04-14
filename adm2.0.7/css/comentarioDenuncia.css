@@ -1,0 +1,92 @@
+.listComent{
+    display: flex;
+    flex-direction: column;
+    height: 85dvh;
+    overflow-y: auto;
+}
+
+.comentario{
+    margin: 1rem;
+    width: 32rem;
+    height: 28rem;
+    flex-direction: column;
+    height: fit-content;
+}
+
+.imgAcusado{
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 100px;
+    background-color: darkgray;
+    margin-inline: 1rem;
+}
+
+.pesquisa{
+    width: 32rem;
+    height: 1rem;
+    border-radius: 4rem;
+    border: 1px solid darkgray;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.denunciador{
+    color: darkgray;
+    padding: 0.5rem;
+    cursor: pointer;
+    margin: 0.4rem;
+}
+
+.layoutComent{
+    display: flex;
+    flex-direction: row;
+}
+
+.acusado{
+    font-weight: 700;
+    cursor: pointer;
+    padding: 0.2rem;
+}
+.texto{
+    background-color: rgb(219, 219, 219);
+    padding: 0.5rem;
+    width: 24rem;
+    max-height:20rem ;
+    font-size: 0.9rem;
+}
+
+.botoes{
+    padding-top:1rem ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.button{
+    height: 1.8rem;
+    width: 8rem;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 0.5rem;
+    cursor:pointer;
+    color: white;
+    &.manter{
+        background-color: #222222;
+    }
+    &.denunciar{
+        background-color: #FF4A4A;
+    }
+    &.manter:active{
+        border: 1px solid #222222;
+        background-color: white;
+        color: #222222;
+    }
+    &.denunciar:active{
+        border: 1px solid #FF4A4A;
+        background-color: white;
+        color: #FF4A4A;
+    }
+}
+

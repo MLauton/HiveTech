@@ -1,0 +1,84 @@
+.formCursos {
+    margin-top: 1rem;
+    width: 28rem;
+    height: 84dvh;
+    padding: 2rem;
+    flex-direction: column;
+}
+.nomeForm{
+    width: 100%;
+    height: 10%;
+}
+input{
+    width: 100%;
+    border-radius: 0.5rem;
+    border: 1px solid darkgray;
+    padding: 0.5rem;
+}
+.tituloInput{
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0.5rem 0.5rem 0.5rem 0rem;
+}
+.espacoInput {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-direction: column;
+}
+.primeiro {
+    width: 100%;
+    height: 20%;
+}
+
+.segundo {
+    width: 100%;
+    height: 20%;
+}
+
+.terceiro {
+    width: 100%;
+    height: 20%;
+}
+
+.quarto {
+    width: 100%;
+    height: 20%;
+}
+
+.quinto {
+    width: 100%;
+    height: 10%;
+}
+
+.botoes{
+    padding-top:1rem ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.botoes{
+    padding-top:1rem ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.button{
+    height: 1.8rem;
+    width: 8rem;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 0.5rem;
+    cursor:pointer;
+    color: white;
+    transition: 0.1s ease-in-out;
+    &.recusar{
+        background-color: #FF4A4A;
+    }
+    &.confirmar{
+        background-color: #222222;
+    }
+}

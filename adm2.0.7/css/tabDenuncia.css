@@ -1,0 +1,47 @@
+.tabDenuncia {
+    width: 28rem;
+    height: 32dvh;
+    margin-block: 1rem;
+    padding: 0rem;
+    overflow: hidden;
+    flex-direction: column;
+    box-shadow: none;
+}
+
+.espacoTitulo{
+    display: flex;
+    width: 100%;
+    height: 3rem;
+    background-color: #25223D;
+    color: white;
+    align-items: center;
+    padding: 1rem;
+}
+.listblock{
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+.bloqueado{
+    display: flex;
+    width: 100%;
+    height: 2rem;
+    flex-direction: row;
+    font-size: 0.9rem; 
+    font-weight: 500;   
+}
+.id{
+    padding: 0.5rem;
+    width: 10%;
+    text-align: center;
+}
+.email{
+    padding: 0.5rem;
+    width: 58%;
+    text-align: center;
+}
+.cpf{
+    padding: 0.5rem;
+    width: 32%;
+    text-align: center;
+}

@@ -1,0 +1,29 @@
+.dados{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+.card{
+    background-color: var(--fundo);
+    width: 18rem;
+    height: 6rem;
+    border-radius: 8px;
+    box-shadow: var(--sombra2);
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    cursor: pointer;
+
+    & .infoCard{
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    & .imgCard{
+        height: 5rem;
+        width: 5rem;
+        object-fit: cover;
+    }
+}

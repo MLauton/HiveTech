@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100dvh;
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    & .card{
+        width: 40rem;
+        height: 35rem;
+        background-color: white;
+        display: grid;
+        place-items: center;
+
+        & input{
+            width: 80%;
+            padding-left: 0.5rem;
+            border: 1px solid black;
+            border-radius: 5px;
+            height: 2rem;
+        }
+    }
+}

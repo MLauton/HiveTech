@@ -1,0 +1,77 @@
+.listCurso{
+    display: flex;
+    flex-direction: column;
+    height: 82dvh;
+    gap: 1rem;
+    overflow: hidden;
+    padding-right: 1rem;
+}
+
+.listCurso:hover{
+    overflow-y: scroll;
+    padding-right: .5rem;
+    padding-left: 0rem;
+
+}
+
+.listCurso::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+
+.listCurso::-webkit-scrollbar-thumb{
+    background-color: var(--corBack);
+    border-radius: 10px;
+}
+
+.listCurso::-webkit-scrollbar{
+    width: 7px;
+    height: none;
+}
+
+
+.cursos{
+    width: 32rem;
+    min-height: 7rem;
+    max-height: 15rem;
+    flex-direction: row;
+    height: fit-content;
+    cursor: pointer;
+}
+.x{
+   cursor: pointer; 
+   width: 2rem;
+   right: 1px;
+}
+
+.imgCurso{
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 100px;
+    background-color: darkgray;
+    margin: 1rem;
+}
+
+.pesquisa{
+    width: 32rem;
+    height: 1rem;
+    border-radius: 4rem;
+    border: 1px solid darkgray;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.instCurso{
+    color: darkgray;
+    padding-block: 0.2rem;
+    width: 24rem;
+}
+
+.layoutCurso{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.titleCurso{
+    font-weight: 700;
+}

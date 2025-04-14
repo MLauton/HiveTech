@@ -1,0 +1,253 @@
+.espaco {
+  width: 45rem;
+  padding: 2rem;
+}
+.area{
+  display: flex;
+  padding-bottom: 2rem;
+  flex-direction: row;
+  justify-content: left;
+  width: 100%;
+  
+  & h2{
+    width: 50%;
+  }
+}
+
+.listInst {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: none;
+  padding: 1rem;
+}
+
+.pesquisa{
+  width: 64dvh;
+  height: 2.5rem;
+  border-radius: 4rem;
+  border: 1px solid darkgray;
+  padding: 1rem;
+}
+
+.tabela {
+  display: flex;
+  flex-direction: column;
+  max-height: 48dvh;
+  min-height: 10rem;
+  width: 99%;
+  border-radius: 10px;
+  box-shadow: var(--sombra2);
+  align-items: center;
+
+  .nomesTab {
+    background-color: var(--corBack4);
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    color: white;
+  }
+
+  & .infoTab {
+    width: 100%;
+  }
+
+  & .dados {
+    width: 100%;
+    margin-inline: 1%;
+    margin-bottom: .5rem;
+  }
+
+  & .dados {
+    width: 100%;
+    margin-inline: 1%;
+    margin-bottom: .5rem;
+  }
+
+  & .foto {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  & .nomes {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  & .categoria {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  & .botao {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  & .tabBotao {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+
+  & .inst {
+    width: 3rem;
+    height: 3rem;
+    object-fit: cover;
+    border-radius: 1rem;
+  }
+}
+.button {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  color: white;
+
+  &.funcao {
+    height: 2.2rem;
+    width: 2.2rem;
+    object-fit: cover;
+  }
+
+  &.cursos {
+    background-color: #00D9FF;
+    color: white;
+    height: 2.5rem;
+    width: 8rem;
+    border-radius: 400rem;
+  }
+& .confirmar{
+  height: 3rem;
+  width: 19rem;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 0.5rem;
+  cursor: pointer; 
+  background-color:#222222;
+  color: white;
+}
+  &.categoriaBtn {
+    border:1px solid #00D9FF;
+    color: #00D9FF;
+    height: 2.5rem;
+    width: 8rem;
+    color: 00D9FF;
+    border-radius: 400rem;
+  }
+
+  &.adicionar {
+    border: 1px solid darkgray;
+    color: darkgray;
+    height: 2.5rem;
+    width: 8rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-left: 2.5rem;
+  }
+
+}
+.botoes{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 20rem;
+  margin-left: 2rem;
+
+  & a{
+    font-weight: bold;
+  }
+}
+ .confirmar{
+  height: 3rem;
+  width: 26rem;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 0.5rem;
+  cursor: pointer; 
+  background-color:#222222;
+  color: white;
+}
+
+.createCurso{
+  width: 28rem;
+  height: 85dvh;
+  margin-top: 2rem;
+  gap: 3dvh;
+  flex-direction: column;
+  position: relative;
+  padding: 1rem;
+
+
+  .descForm{
+    width: 26rem;
+    min-height: 12dvh;
+    max-height: 12dvh;
+    border-radius: 10px;
+    border: 1px solid darkgray;
+  }
+  .video{
+    width: 26rem;
+    min-height: 5dvh;
+    max-height: 5dvh;
+    border-radius: 10px;
+    border: 1px solid darkgray;
+  }
+  .objetivo{
+    width: 26rem;
+    min-height: 12dvh;
+    max-height: 12dvh;
+    border-radius: 10px;
+    border: 1px solid darkgray;
+  }
+  .localImg{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+  }
+  .adicionarFoto{
+    border: 2px solid gray;
+    color: gray;
+    font-size: 1.3rem;
+    height: .9rem;
+    width: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-left: 2.5rem;
+  }
+  .iconFoto{
+    height: .8rem;
+    width: .8rem;
+    object-fit: cover;
+    background-color: black;
+    margin: 1rem;
+  }
+}
+
+.abrirImagem{
+  cursor: pointer;
+}
+
