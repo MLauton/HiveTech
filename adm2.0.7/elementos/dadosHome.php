@@ -44,7 +44,7 @@ $qtdCursos = $cursos['total'];
 
         <a href="../denuncia/index.php">
             <div class="card dadosCard">
-                <img class="imgDados" src="../../img/defaultUser.png" alt="era pra ter algo aq">
+                <img class="imgDados" src="../../img/denunciaPeri.png" alt="era pra ter algo aq">
                 <div class="infoDados">
                     <div class="titulo">
                         <h1><?= $qtdCursos ?> <span class="espaco">Denuncias</span></h1>

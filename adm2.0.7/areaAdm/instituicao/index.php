@@ -17,6 +17,7 @@ require_once "../../dao/admDao.php";
     <link rel="stylesheet" href="./../../css/conteudo.css">
     <link rel="stylesheet" href="./../../css/cards.css">
     <link rel="stylesheet" href="./../../css/listas.css">
+    <link rel="stylesheet" href="./../../css/formInsti.css">
 
     <title>ADM - Instituições</title>
 </head>
@@ -30,9 +31,17 @@ require_once "../../dao/admDao.php";
     ?>
 
     <main>
-    <?php
-    require_once './../../elementos/listInstituicao.php'
-    ?>
+        <div style="display: flex;flex-direction: row;">
+
+            <?php
+            require_once './../../elementos/listInstituicao.php'
+            ?>
+
+            <?php
+            require_once './../../elementos/formInstituicao.php'
+            ?>
+
+        </div>
     </main>
 
 </body>

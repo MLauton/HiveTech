@@ -1,7 +1,7 @@
 <div style="width: 50%; display: flex; align-items: center;flex-direction: column;padding-top: 1rem;">
 
     <div class="card dadosDenuncia">
-        <img class="imgDados" src="../../img/defaultUser.png" alt="era pra ter algo aq">
+        <img class="imgDados" src="../../img/denunciaPeri.png" alt="era pra ter algo aq">
         <div class="infoDados">
             <div class="titulo">
                 <h2>Total de Denuncias</h2>

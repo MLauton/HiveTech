@@ -7,10 +7,10 @@
                 <div class="imgCurso"></div>
                 <div>
                     <h3 class="titleCurso">Fatec - Itaquera</h4>
-                    <h5 class="instCurso">Itaquera</h5>
+                        <h5 class="instCurso">Itaquera</h5>
                 </div>
             </div>
-            
+
             <h4 class="x">X</h4>
         </div>
         <div class="card cursos">
@@ -18,7 +18,7 @@
                 <div class="imgCurso"></div>
                 <div>
                     <h3 class="titleCurso">Ciencias da Computação</h4>
-                    <h5 class="instCurso">USP</h5>
+                        <h5 class="instCurso">USP</h5>
                 </div>
             </div>
             <h4 class="x">X</h4>

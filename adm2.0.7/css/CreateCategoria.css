@@ -129,18 +129,18 @@ padding-bottom:.4rem ;
   border-radius: 0.5rem;
   cursor:pointer;
   color: white;
-  &.manter{
+  &.alterar{
       background-color: #222222;
   }
-  &.denunciar{
+  &.excluir{
       background-color: #FF4A4A;
   }
-  &.manter:active{
+  &.alterar:active{
       border: 1px solid #222222;
       background-color: white;
       color: #222222;
   }
-  &.denunciar:active{
+  &.excluir:active{
       border: 1px solid #FF4A4A;
       background-color: white;
       color: #FF4A4A;

@@ -20,46 +20,14 @@
         <h5>"Transforme ideias em inovação: os cursos de tecnologia preparam você para construir o futuro!" </h5>
         <div class="botoes">
             <div class="abrirTres">
-                <div class="button denunciar">
+                <a class="button alterar">
                     Alterar
-                </div>
+                </a>
             </div>
             <div class="abrirDois">
-                <div class="button manter">
+                <a class="button excluir">
                     Deletar
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="card categoria">
-        <h2>Tecnologia</h2>
-        <h5>"Transforme ideias em inovação: os cursos de tecnologia preparam você para construir o futuro!" </h5>
-        <div class="botoes">
-            <div class="abrirTres">
-                <div class="button denunciar">
-                    Alterar
-                </div>
-            </div>
-            <div class="abrirDois">
-                <div class="button manter">
-                    Deletar
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="card categoria">
-        <h2>Tecnologia</h2>
-        <h5>"Transforme ideias em inovação: os cursos de tecnologia preparam você para construir o futuro!" </h5>
-        <div class="botoes">
-            <div class="abrirTres">
-                <div class="button denunciar">
-                    Alterar
-                </div>
-            </div>
-            <div class="abrirDois">
-                <div class="button manter">
-                    Deletar
-                </div>
+                </a>
             </div>
         </div>
     </div>

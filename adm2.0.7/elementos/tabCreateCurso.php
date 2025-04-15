@@ -31,19 +31,6 @@
 
             </div>
             <div class="listInst">
-            <?php
- foreach ($cursos as $c) {
-    echo "<div>";
-    echo "<h2>" . $c[2] . "</h2>";
-    echo "<p><strong>Disciplina:</strong> " . $c['disciplinaCurso'] . "</p>";
-    echo "<p><strong>Período:</strong> " . $c['periodoCurso'] . "</p>";
-    echo "<p><strong>Modalidade:</strong> " . $c['modalidadeCurso'] . "</p>";
-    echo "<p><strong>Categoria:</strong> " . $c['descCategoria'] . "</p>";
-    echo "<img src='caminho/imagens/" . $c['nomeImagemCurso'] . "' alt='Imagem do curso'>";
-    echo "<p><strong>Texto:</strong> " . $c['contTexto'] . "</p>";
-    echo "</div><hr>";
-}
-?>
                 <div class="dados">
                     <div class="foto">
                         <img class="inst" src="./../../img/defaultUser.png" alt="">
@@ -57,7 +44,7 @@
                     <div class="botao">
                         <img src="./../../img/upd_icon.png" class="button funcao" alt="">
                     </div>
-                    <div class="botao">
+                    <div class="botao abrirDois">
                         <img src="./../../img/trash_icon.png" class="button funcao" alt="">
 
                     </div>
@@ -102,5 +89,21 @@
         </div>
     </div>
 </div>
+
+<div id="myModalDois" class="modal">
+    <div class="estruturaModal">
+        <span class="fechar">&times;</span>
+        <div class="centerInfo">
+            <h2>Deletar</h2>
+            <p>Deseja deletar este curso?</p>
+            <img class="inst" src="./../../img/defaultUser.png" alt="">
+            <p>{nome Curso}</p>
+            <div class="button manter">
+                Confirmar
+            </div>
+        </div>
+    </div>
+</div>
+
 
 <script src="../../js/abrirFecharModal.js"></script>
