@@ -1,4 +1,3 @@
-
 .modal {
     display: none;
     position: fixed;
@@ -10,10 +9,17 @@
     background-color: rgba(0, 0, 0, 0.4);
 }
 
+.centerCard{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .estruturaModalDenunciar {
     align-items: center;
     background-color: #fff;
-    margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
     width: 20rem;
@@ -58,7 +64,6 @@
 .estruturaModal {
     align-items: center;
     background-color: #fff;
-    margin: 10% auto;
     padding: 20px;
     border: 1px solid #888;
     width: 35rem;
@@ -169,11 +174,10 @@
 .estruturaModalimgIlustrativa {
     align-items: center;
     background-color: #fff;
-    margin: 10% auto;
     padding: 20px;
     border: 1px solid #888;
     width: 26rem;
-    height: 24rem;
+    height: 26rem;
     border-radius: .5rem;
 
 

@@ -1,5 +1,5 @@
 .espaco {
-  width: 45rem;
+  width: 50%;
   padding: 2rem;
 }
 
@@ -7,7 +7,7 @@
   display: flex;
   padding-bottom: 2rem;
   flex-direction: row;
-  justify-content: left;
+  justify-content: space-between;
   width: 100%;
 
   & h2 {
@@ -25,7 +25,7 @@
 }
 
 .pesquisa {
-  width: 64dvh;
+  width: 70%;
   height: 2.5rem;
   border-radius: 4rem;
   border: 1px solid darkgray;
@@ -36,15 +36,15 @@
   display: flex;
   flex-direction: column;
   max-height: 48dvh;
-  min-height: 10rem;
-  width: 99%;
+  min-height: 1rem;
+  width: 100%;
   border-radius: 10px;
   box-shadow: var(--sombra2);
   align-items: center;
 
   .nomesTab {
     background-color: var(--corBack4);
-    height: 3rem;
+    height: 100%;
     width: 100%;
     display: flex;
     align-items: center;
@@ -172,7 +172,6 @@
     width: 8rem;
     padding: 1rem;
     border-radius: 0.5rem;
-    margin-left: 2.5rem;
   }
 
 }
@@ -180,8 +179,8 @@
 .botoes {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  width: 20rem;
+  justify-content: space-between;
+  width: 18rem;
   margin-left: 2rem;
 
   & a {
@@ -203,7 +202,7 @@
 }
 
 .createCurso {
-  width: 28rem;
+  width: 45%;
   height: 85dvh;
   margin-top: 2rem;
   gap: 3dvh;
@@ -213,18 +212,20 @@
 
 
   .descForm {
-    width: 26rem;
+    min-width: 100%;
+    max-width: 100%;
     min-height: 12dvh;
     max-height: 12dvh;
     border: none;
     border-radius: 10px;
     padding: .8rem;
-    background-color: #F0F0F0;
-    border-bottom: 3px solid gray;
+    background-color: #ffffff;
+    border: 2px solid gray;
   }
 
   .video {
-    width: 26rem;
+    min-width: 100%;
+    max-width: 100%;
     min-height: 5dvh;
     max-height: 5dvh;
     border-radius: 10px;
@@ -232,11 +233,12 @@
     border: none;
     padding: .8rem;
     background-color: #F0F0F0;
-    border-bottom: 3px solid gray;
+    border: 2px solid gray;
   }
 
   .objetivo {
-    width: 26rem;
+    min-width: 100%;
+    max-width: 100%;
     min-height: 12dvh;
     max-height: 12dvh;
     padding: .8rem;
@@ -244,7 +246,7 @@
     border-radius: 10px;
     padding: .8rem;
     background-color: #F0F0F0;
-    border-bottom: 3px solid gray;
+    border: 2px solid gray;
   }
 
   .localImg {

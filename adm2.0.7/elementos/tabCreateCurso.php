@@ -1,4 +1,4 @@
-<div style="display: flex;flex-direction: row;">
+<div style="display: flex;flex-direction: row; width: 100%;justify-content: center;">
     <div class="espaco">
         <div class="area">
             <h2>Cursos Cadastradados</h2>
@@ -75,34 +75,38 @@
 </div>
 
 <div id="myModal" class="modal">
-    <div class="estruturaModalimgIlustrativa">
-        <span class="fechar">&times;</span>
-        <div class="centerInfo">
-            <p>Adicione uma imagem</p>
-            <div class="image">
-                <?= $tem ? '<img src="./../../img/defaultUser.png" alt="">' : '+' ?>
-            </div>
-            <div class="button confirmar">
-                Confirmar
-            </div>
+    <div class="centerCard">
+        <div class="estruturaModalimgIlustrativa">
+            <span class="fechar">&times;</span>
+            <div class="centerInfo">
+                <p>Adicione uma imagem</p>
+                <div class="image">
+                    <?= $tem ? '<img src="./../../img/defaultUser.png" alt="">' : '+' ?>
+                </div>
+                <div class="button confirmar">
+                    Confirmar
+                </div>
 
+            </div>
         </div>
     </div>
 </div>
 
 <div id="myModalDois" class="modal">
-    <div class="estruturaModal">
-        <span class="fechar">&times;</span>
-        <div class="centerInfo">
-            <h2>Deletar</h2>
-            <p>Deseja deletar este curso?</p>
-            <img class="inst" src="./../../img/defaultUser.png" alt="">
-            <p>{nome Curso}</p>
-            <div class="button manter">
-                Confirmar
+    <div class="centerCard">
+
+        <div class="estruturaModal">
+            <span class="fechar">&times;</span>
+            <div class="centerInfo">
+                <h2>Deletar</h2>
+                <p>Deseja deletar este curso?</p>
+                <img class="inst" src="./../../img/defaultUser.png" alt="">
+                <p>{nome Curso}</p>
+                <div class="button manter">
+                    Confirmar
+                </div>
             </div>
         </div>
-    </div>
 </div>
 
 

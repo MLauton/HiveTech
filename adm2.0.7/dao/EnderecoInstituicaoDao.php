@@ -6,8 +6,8 @@ class EnderecoInstituicaoDao{
 
         $conexao = Conexao::conectar();
 
-        $query = "INSERT INTO tbenderecoinstituicao (logradouroEnderecoInstituicao, numeroEnderecoInstituicao, cepEnderecoInstituicao, bairroEnderecoInstituicao, cidadeEnderecoInstituicao, estadoEnderecoInstituicao)
-        VALUES (?, ?, ?, ?, ?, ?)";
+        $query = "INSERT INTO tbenderecoinstituicao (logradouroEnderecoInstituicao, numeroEnderecoInstituicao, cepEnderecoInstituicao, bairroEnderecoInstituicao, cidadeEnderecoInstituicao, estadoEnderecoInstituicao, complementoEnderecoInstituicao)
+        VALUES (?, ?, ?, ?, ?, ?, ?)";
 
         $stmt = $conexao->prepare($query);
 
@@ -17,6 +17,7 @@ class EnderecoInstituicaoDao{
         $stmt->bindValue(4, $endereco->getBairro());
         $stmt->bindValue(5, $endereco->getCidade());
         $stmt->bindValue(6, $endereco->getEstado());
+        $stmt->bindValue(7, $endereco->getComplemento());
 
         $stmt->execute();
 
@@ -24,7 +25,7 @@ class EnderecoInstituicaoDao{
     public static function selectAll() {
         $conexao = Conexao::conectar();
 
-        $query ="SELECT idEnderecoInstituicao, logradouroEnderecoInstituicao, numeroEnderecoInstituicao, cepEnderecoInstituicao, bairroEnderecoInstituicao, cidadeEnderecoInstituicao, estadoEnderecoInstituicao FROM tbenderecoInstituicao;";
+        $query ="SELECT idEnderecoInstituicao, logradouroEnderecoInstituicao, numeroEnderecoInstituicao, cepEnderecoInstituicao, bairroEnderecoInstituicao, cidadeEnderecoInstituicao, estadoEnderecoInstituicao, complementoEnderecoInstituicao FROM tbenderecoInstituicao;";
 
         $stmt = $conexao->prepare($query);
 
@@ -61,7 +62,7 @@ class EnderecoInstituicaoDao{
     public static function update($endereco) {
         $conexao = Conexao::conectar();
 
-        $query = "UPDATE tbEnderecoInstituicao SET logradouroEnderecoInstituicao = ?, numeroEnderecoInstituicao = ?, cepEnderecoInstituicao = ?, bairroEnderecoInstituicao = ?, cidadeEnderecoInstituicao = ?, estadoEnderecoInstituicao = ? WHERE idEnderecoInstituicao = ?";
+        $query = "UPDATE tbEnderecoInstituicao SET logradouroEnderecoInstituicao = ?, numeroEnderecoInstituicao = ?, cepEnderecoInstituicao = ?, bairroEnderecoInstituicao = ?, cidadeEnderecoInstituicao = ?, estadoEnderecoInstituicao = ?, complementoEnderecoInstituicao = ? WHERE idEnderecoInstituicao = ?";
 
         $stmt = $conexao->prepare($query);
 
@@ -71,7 +72,8 @@ class EnderecoInstituicaoDao{
         $stmt->bindValue(4, $endereco->getBairro());
         $stmt->bindValue(5, $endereco->getCidade());
         $stmt->bindValue(6, $endereco->getEstado());
-        $stmt->bindValue(7, $endereco->getId());
+        $stmt->bindValue(7, $endereco->getComplemento());
+        $stmt->bindValue(8, $endereco->getId());
 
 
         $stmt->execute();

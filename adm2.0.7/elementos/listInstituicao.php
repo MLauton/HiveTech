@@ -11,7 +11,6 @@
                 </div>
             </div>
 
-            <h4 class="x">X</h4>
         </div>
         <div class="card cursos">
             <div class="layoutCurso">
@@ -21,7 +20,6 @@
                         <h5 class="instCurso">USP</h5>
                 </div>
             </div>
-            <h4 class="x">X</h4>
         </div>
     </div>
 </div>

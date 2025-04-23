@@ -32,8 +32,11 @@ switch ($_POST['acao']){
         $instituicao->setId($_POST['idInstituicao']);
         $instituicao->setNome($_POST['nome']);
         $instituicao->setEmail($_POST['email']);
-        $instituicao->setImagem($_POST['idImagemInstituicao']);
         $instituicao->setVideo($instituicao->salvarVideo(''));
+        $instituicao->setLink($_Post['link']);
+        $instituicao->setStatus(0);
+        $instituicao->setCnpj($_POST['cnpj']);
+        $instituicao->setImagem($_POST['idImagemInstituicao']);
         $instituicao->setFone($_POST['idFone']);
         $instituicao->setEndereco($_POST['idEndereco']);
         $instituicao->setTipo($_POST['idTipo']);
@@ -45,17 +48,18 @@ switch ($_POST['acao']){
 
         $endereco->setId($_POST['idEndereco']);
         $endereco->setLogradouro($_POST['logradouro']);
-        $endereco->setNumero($_POST['numerolog']);
+        $endereco->setNumero($_POST['numero']);
         $endereco->setCep($_POST['cep']);
         $endereco->setBairro($_POST['bairro']);
         $endereco->setCidade($_POST['cidade']);
         $endereco->setEstado($_POST['estado']);
+        $endereco->setComplemento($_POST['complemento']);
 
         $tipoinstituicao->setId($_POST['idTipo']);
         $tipoinstituicao->setDesc($_POST['desc']);
 
         $imageminstituicao->setId($_POST['idImagemInstituicao']);
-        $imageminstituicao->setImagem($imageminstituicao->salvarImagem(''));
+        $imageminstituicao->setImage($imageminstituicao->salvarImagem(''));
 
         $textoinstituicao->setId($_POST['idtextoInstituicao']);
         $textoinstituicao->setTexto($_POST['contTextoInstituicao']);
@@ -147,10 +151,10 @@ switch ($_POST['acao']){
         $tipoinstituicao->setDesc($_POST['desc']);
 
         $textoinstituicao->setId($_POST['id']);
-        $textoinstituicao->setDesc($_POST['contTextoInstituicao']);
+        $textoinstituicao->setTexto($_POST['contTextoInstituicao']);
 
         $imageminstituicao->setId($_POST['id']);
-        $imageminstituicao->setDesc($_POST['linkImagemInstituicao']);
+        $imageminstituicao->setImage($_POST['linkImagemInstituicao']);
 
         try{
             $instituicao = InstituicaoDao::update($instituicao);

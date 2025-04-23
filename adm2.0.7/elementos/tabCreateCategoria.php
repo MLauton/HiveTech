@@ -36,36 +36,42 @@
 
 
 <div id="myModal" class="modal">
-    <div class="estruturaModal">
-        <span class="fechar">&times;</span>
-        <div class="centerInfo">
-            <h2>Adicionar</h2>
-            <p>Preencha os dados corretamente:</p>
-            <div class="titleInput">
-                <p>Titulo:</p>
-                <input class="inputs titulo" />
-            </div>
-            <div class="titleInput">
-                <p>Descrição:</p>
-                <textarea class="inputs desc"></textarea>
-            </div>
-            <div class="button manter">
-                Confirmar
+    <div class="centerCard">
+
+        <div class="estruturaModal">
+            <span class="fechar">&times;</span>
+            <div class="centerInfo">
+                <h2>Adicionar</h2>
+                <p>Preencha os dados corretamente:</p>
+                <div class="titleInput">
+                    <p>Titulo:</p>
+                    <input class="inputs titulo" />
+                </div>
+                <div class="titleInput">
+                    <p>Descrição:</p>
+                    <textarea class="inputs desc"></textarea>
+                </div>
+                <div class="button manter">
+                    Confirmar
+                </div>
             </div>
         </div>
     </div>
 </div>
 
 <div id="myModalDois" class="modal">
-    <div class="estruturaModal">
-        <span class="fechar">&times;</span>
-        <div class="centerInfo">
-            <h2>Deletar</h2>
-            <p>Deseja deletar essa categoria?</p>
-            <img class="inst" src="./../../img/defaultUser.png" alt="">
-            <p>{nome categoria}</p>
-            <div class="button manter">
-                Confirmar
+    <div class="centerCard">
+
+        <div class="estruturaModal">
+            <span class="fechar">&times;</span>
+            <div class="centerInfo">
+                <h2>Deletar</h2>
+                <p>Deseja deletar essa categoria?</p>
+                <img class="inst" src="./../../img/defaultUser.png" alt="">
+                <p>{nome categoria}</p>
+                <div class="button manter">
+                    Confirmar
+                </div>
             </div>
         </div>
     </div>
@@ -73,21 +79,24 @@
 
 
 <div id="myModalTres" class="modal">
-    <div class="estruturaModal">
-        <span class="fechar">&times;</span>
-        <div class="centerInfo">
-            <h2>Alterar</h2>
-            <div class="titleInput">
-                <p>Titulo:</p>
-                <input class="inputs titulo" />
-            </div>
-            <div class="titleInput">
-                <p>Descrição:</p>
-                <textarea class="inputs desc"></textarea>
-            </div>
-            <h5>*Após a alteração, os dados anteriores não serão salvos.</h5>
-            <div class="button manter">
-                Confirmar
+    <div class="centerCard">
+
+        <div class="estruturaModal">
+            <span class="fechar">&times;</span>
+            <div class="centerInfo">
+                <h2>Alterar</h2>
+                <div class="titleInput">
+                    <p>Titulo:</p>
+                    <input class="inputs titulo" />
+                </div>
+                <div class="titleInput">
+                    <p>Descrição:</p>
+                    <textarea class="inputs desc"></textarea>
+                </div>
+                <h5>*Após a alteração, os dados anteriores não serão salvos.</h5>
+                <div class="button manter">
+                    Confirmar
+                </div>
             </div>
         </div>
     </div>

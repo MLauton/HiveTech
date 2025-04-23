@@ -1,6 +1,6 @@
 <?php
     class enderecoInstituicao{
-        public $id, $logradouro, $numero, $cep, $bairro, $cidade, $estado;
+        public $id, $logradouro, $numero, $cep, $bairro, $cidade, $estado, $complemento;
 
         public function getId(){
             return $this->id;
@@ -48,6 +48,13 @@
             return $this->estado;
         }
         public function setEstado($estado){
+            $this->estado = $estado;
+        }
+
+        public function getComplemento(){
+            return $this->estado;
+        }
+        public function setComplemento($estado){
             $this->estado = $estado;
         }
     }

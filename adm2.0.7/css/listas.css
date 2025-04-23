@@ -30,7 +30,7 @@
 
 
 .cursos{
-    width: 32rem;
+    width: 100%;
     min-height: 7rem;
     max-height: 15rem;
     flex-direction: row;

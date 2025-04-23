@@ -28,6 +28,7 @@
     border: 1px solid darkgray;
     padding: 1rem;
     margin: 1rem;
+    margin-left: 0px    ;
 }
 
 .denunciador{
@@ -55,11 +56,12 @@
     font-size: 0.9rem;
 }
 
-.botoes{
+.botoesList{
     padding-top:1rem ;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-bottom: 1rem;
 }
 
 .button{

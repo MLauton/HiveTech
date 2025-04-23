@@ -20,18 +20,13 @@ botoesAbrir.forEach(botao => {
     }
 
     if (modal) {
-      modal.style.display = 'block';
+      modal.style.display = 'flex';
 
       // Botão de fechar dentro do modal
       const fechar = modal.querySelector('.fechar');
       fechar.onclick = () => fecharModal(modal);
 
-      // Clica fora do modal para fechar
-      window.onclick = (event) => {
-        if (event.target === modal) {
-          fecharModal(modal);
-        }
-      };
+
     }
   });
 });

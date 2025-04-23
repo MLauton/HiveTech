@@ -1,7 +1,7 @@
 <?php
 require_once "conexaoDao.php";
 
-class TextoInstituicao{
+class TextoInstituicaoDao{
     public static function insert($texto){
 
         $conexao = Conexao::conectar();
